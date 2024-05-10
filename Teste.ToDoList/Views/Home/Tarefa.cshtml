@@ -1,0 +1,115 @@
+﻿@using Teste.ToDoList.Infra.Entidades
+@using Teste.ToDoList.Infra.Enumeradores
+@model Tarefa
+
+@{
+    ViewData["Title"] = Model.Id == 0 ? "Adicionar" : "Editar";
+}
+
+<style>
+    label.obrigatorio::after {
+        content: " *";
+        color: #FF0000;
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: bold;
+    }
+</style>
+
+<div class="text-center">
+    <h1 class="display-6">@(Model.Id == 0 ? "Adicionar Tarefa" : "Editar Tarefa")</h1>
+</div>
+<br />
+<div style="display:none;" class="alert alert-danger" role="alert" id="alerta-erro"></div>
+@Html.HiddenFor(model => model.Id)
+<div class="row">
+    <section class="col col-md-12">
+        <label class="label obrigatorio">Título</label>
+        <br />
+        @Html.TextBoxFor(model => model.Titulo, new { @maxlength = 100, @class = "form-control" })
+    </section>
+</div>
+
+<br />
+
+<div class="row">
+    <section class="col col-md-12">
+        <label class="label obrigatorio">Descrição</label>
+        <br />
+        @Html.TextAreaFor(model => model.Descricao, new { @maxlength = 500, @rows = "4", @class = "form-control" })
+    </section>
+</div>
+
+<br />
+
+<div class="row">
+    <section class="col col-md-4">
+        <label class="label obrigatorio">Data Inicial</label>
+        @Html.TextBox("DataInicio", Model.DataInicio.ToString("dd/MM/yyyy"), new { @class = "form-control datepicker", @autocomplete="off" })
+    </section>
+
+    <section class="col col-md-4">
+        <label>Data Final</label>
+        @Html.TextBox("DataFim", Model.DataFim?.ToString("dd/MM/yyyy"), new { @class = "form-control datepicker", @autocomplete="off" })
+    </section>
+
+    <section class="col col-md-4">
+        <label class="label obrigatorio">Status</label>
+        @{
+            var lista = new List<SelectListItem>
+            {
+                new SelectListItem { Text = "Pendente", Value = "Pendente" },
+                new SelectListItem { Text = "Em Andamento", Value = "EmAndamento" },
+                new SelectListItem { Text = "Concluída", Value = "Concluida" }
+            };
+        }
+        @Html.DropDownListFor(model => model.Status, lista, new { @class = "form-control" })
+    </section>
+</div>
+<br />
+<div class="row">
+    <section class="col-md-12">
+        <button type="button" class="btn btn-primary" onclick="salvar()" style="float: right">
+            Salvar
+        </button>
+
+        <a class="btn btn-dark" href="/" style="float: right; margin-right: 15px;">
+            Voltar
+        </a>
+    </section>
+</div>
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-datepicker/1.9.0/css/bootstrap-datepicker.min.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-datepicker/1.9.0/js/bootstrap-datepicker.min.js"></script>
+
+<script>
+    $('.datepicker').datepicker({
+        autoclose: true,
+        format: 'dd/mm/yyyy'
+    });
+
+    var salvar = function () {
+        let tarefa = {
+            Id: $('#Id').val(),
+            Titulo: $('#Titulo').val(),
+            Descricao: $('#Descricao').val(),
+            DataInicio: $('#DataInicio').val(),
+            DataFim: $('#DataFim').val(),
+            Status: $('#Status').val()
+        };
+
+        $.ajax({
+            url: '/Home/AdicionarOuEditar',
+            type: 'POST',
+            data: tarefa,
+        }).done(function (result) {
+            if (result.sucesso) {
+                window.location.href = '/';
+            } else {
+                $('#alerta-erro').html(result.mensagem);
+                $('#alerta-erro').fadeIn('fast');
+            }
+        });
+    }
+</script>

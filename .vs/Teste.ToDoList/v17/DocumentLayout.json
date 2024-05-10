@@ -1,0 +1,139 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\src\\Teste.ToDoList\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{DB6A2BB4-2C27-493C-95FB-F1BB3E390EF3}|Teste.ToDoList.Infra\\Teste.ToDoList.Infra.csproj|d:\\src\\teste.todolist\\teste.todolist.infra\\entidades\\tarefa.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DB6A2BB4-2C27-493C-95FB-F1BB3E390EF3}|Teste.ToDoList.Infra\\Teste.ToDoList.Infra.csproj|solutionrelative:teste.todolist.infra\\entidades\\tarefa.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{68E1531C-1B0D-4920-BED3-F8AABDD6F48F}|Teste.ToDoList\\Teste.ToDoList.csproj|d:\\src\\teste.todolist\\teste.todolist\\views\\home\\tarefa.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{68E1531C-1B0D-4920-BED3-F8AABDD6F48F}|Teste.ToDoList\\Teste.ToDoList.csproj|solutionrelative:teste.todolist\\views\\home\\tarefa.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DB6A2BB4-2C27-493C-95FB-F1BB3E390EF3}|Teste.ToDoList.Infra\\Teste.ToDoList.Infra.csproj|d:\\src\\teste.todolist\\teste.todolist.infra\\repositorio\\interfaces\\itarefarepositorio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DB6A2BB4-2C27-493C-95FB-F1BB3E390EF3}|Teste.ToDoList.Infra\\Teste.ToDoList.Infra.csproj|solutionrelative:teste.todolist.infra\\repositorio\\interfaces\\itarefarepositorio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DB6A2BB4-2C27-493C-95FB-F1BB3E390EF3}|Teste.ToDoList.Infra\\Teste.ToDoList.Infra.csproj|d:\\src\\teste.todolist\\teste.todolist.infra\\enumeradores\\estatustarefa.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DB6A2BB4-2C27-493C-95FB-F1BB3E390EF3}|Teste.ToDoList.Infra\\Teste.ToDoList.Infra.csproj|solutionrelative:teste.todolist.infra\\enumeradores\\estatustarefa.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{68E1531C-1B0D-4920-BED3-F8AABDD6F48F}|Teste.ToDoList\\Teste.ToDoList.csproj|d:\\src\\teste.todolist\\teste.todolist\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{68E1531C-1B0D-4920-BED3-F8AABDD6F48F}|Teste.ToDoList\\Teste.ToDoList.csproj|solutionrelative:teste.todolist\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{68E1531C-1B0D-4920-BED3-F8AABDD6F48F}|Teste.ToDoList\\Teste.ToDoList.csproj|d:\\src\\teste.todolist\\teste.todolist\\views\\home\\_partialtarefas.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{68E1531C-1B0D-4920-BED3-F8AABDD6F48F}|Teste.ToDoList\\Teste.ToDoList.csproj|solutionrelative:teste.todolist\\views\\home\\_partialtarefas.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DB6A2BB4-2C27-493C-95FB-F1BB3E390EF3}|Teste.ToDoList.Infra\\Teste.ToDoList.Infra.csproj|d:\\src\\teste.todolist\\teste.todolist.infra\\repositorio\\tarefarepositorio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DB6A2BB4-2C27-493C-95FB-F1BB3E390EF3}|Teste.ToDoList.Infra\\Teste.ToDoList.Infra.csproj|solutionrelative:teste.todolist.infra\\repositorio\\tarefarepositorio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Tarefa.cshtml",
+              "DocumentMoniker": "D:\\src\\Teste.ToDoList\\Teste.ToDoList\\Views\\Home\\Tarefa.cshtml",
+              "RelativeDocumentMoniker": "Teste.ToDoList\\Views\\Home\\Tarefa.cshtml",
+              "ToolTip": "D:\\src\\Teste.ToDoList\\Teste.ToDoList\\Views\\Home\\Tarefa.cshtml",
+              "RelativeToolTip": "Teste.ToDoList\\Views\\Home\\Tarefa.cshtml",
+              "ViewState": "AQIAACoAAAAAAAAAAAAAADcAAAAoAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-10T01:10:01.175Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "_PartialTarefas.cshtml",
+              "DocumentMoniker": "D:\\src\\Teste.ToDoList\\Teste.ToDoList\\Views\\Home\\_PartialTarefas.cshtml",
+              "RelativeDocumentMoniker": "Teste.ToDoList\\Views\\Home\\_PartialTarefas.cshtml",
+              "ToolTip": "D:\\src\\Teste.ToDoList\\Teste.ToDoList\\Views\\Home\\_PartialTarefas.cshtml",
+              "RelativeToolTip": "Teste.ToDoList\\Views\\Home\\_PartialTarefas.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAB8AAAAWAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-10T01:08:54.622Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Tarefa.cs",
+              "DocumentMoniker": "D:\\src\\Teste.ToDoList\\Teste.ToDoList.Infra\\Entidades\\Tarefa.cs",
+              "RelativeDocumentMoniker": "Teste.ToDoList.Infra\\Entidades\\Tarefa.cs",
+              "ToolTip": "D:\\src\\Teste.ToDoList\\Teste.ToDoList.Infra\\Entidades\\Tarefa.cs",
+              "RelativeToolTip": "Teste.ToDoList.Infra\\Entidades\\Tarefa.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAXAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-10T01:06:24.248Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "TarefaRepositorio.cs",
+              "DocumentMoniker": "D:\\src\\Teste.ToDoList\\Teste.ToDoList.Infra\\Repositorio\\TarefaRepositorio.cs",
+              "RelativeDocumentMoniker": "Teste.ToDoList.Infra\\Repositorio\\TarefaRepositorio.cs",
+              "ToolTip": "D:\\src\\Teste.ToDoList\\Teste.ToDoList.Infra\\Repositorio\\TarefaRepositorio.cs",
+              "RelativeToolTip": "Teste.ToDoList.Infra\\Repositorio\\TarefaRepositorio.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAEYAAAArAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-10T01:05:53.424Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "eStatusTarefa.cs",
+              "DocumentMoniker": "D:\\src\\Teste.ToDoList\\Teste.ToDoList.Infra\\Enumeradores\\eStatusTarefa.cs",
+              "RelativeDocumentMoniker": "Teste.ToDoList.Infra\\Enumeradores\\eStatusTarefa.cs",
+              "ToolTip": "D:\\src\\Teste.ToDoList\\Teste.ToDoList.Infra\\Enumeradores\\eStatusTarefa.cs",
+              "RelativeToolTip": "Teste.ToDoList.Infra\\Enumeradores\\eStatusTarefa.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-10T01:03:18.793Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ITarefaRepositorio.cs",
+              "DocumentMoniker": "D:\\src\\Teste.ToDoList\\Teste.ToDoList.Infra\\Repositorio\\Interfaces\\ITarefaRepositorio.cs",
+              "RelativeDocumentMoniker": "Teste.ToDoList.Infra\\Repositorio\\Interfaces\\ITarefaRepositorio.cs",
+              "ToolTip": "D:\\src\\Teste.ToDoList\\Teste.ToDoList.Infra\\Repositorio\\Interfaces\\ITarefaRepositorio.cs",
+              "RelativeToolTip": "Teste.ToDoList.Infra\\Repositorio\\Interfaces\\ITarefaRepositorio.cs",
+              "ViewState": "AQIAAAgAAAAAAAAAAAAcwCoAAAAwAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-10T00:55:23.407Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "D:\\src\\Teste.ToDoList\\Teste.ToDoList\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "Teste.ToDoList\\Controllers\\HomeController.cs",
+              "ToolTip": "D:\\src\\Teste.ToDoList\\Teste.ToDoList\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "Teste.ToDoList\\Controllers\\HomeController.cs",
+              "ViewState": "AQIAAD0AAAAAAAAAAAAvwDAAAAARAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-10T00:26:39.493Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
